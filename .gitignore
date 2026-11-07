@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dashboard/node_modules/
+dashboard/dist/
+
+# Large datasets and model artifacts
+data/
+models/
+*.gpkg
+*.joblib
+
+# Generated temporary files
+*.log
+.DS_Store
+Thumbs.db
